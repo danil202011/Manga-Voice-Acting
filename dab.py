@@ -742,7 +742,7 @@ async def start(update: Update, context):
     await update.message.reply_text(welcome_text)
 
 def main():
-    TOKEN = "8481087114:AAEG1TPHxyD7GWqzTdrsHRy0WuJSr-ekzhU"
+    TOKEN = ""
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
@@ -763,4 +763,5 @@ def main():
 if __name__ == '__main__':
     main()
     # @VFaiengineer
+
 
